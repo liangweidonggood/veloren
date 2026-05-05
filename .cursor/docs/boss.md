@@ -136,7 +136,7 @@ npc
 /make_npc village.villager 49
 /make_npc village.merchant 49
 /make_npc village.guard 49
-/make_npc village.captain 49
+/make_npc village.captain 49 # 船长自带安全区光环，无法被攻击
 /make_npc village.bowman 49
 
 /make_npc wild.aggressive.hydra 49
