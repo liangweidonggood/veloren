@@ -2332,6 +2332,9 @@
             "common.items.debug.admin_sword",
         ): "weapon-sword-frost-admin_sword",
         Simple(
+            "common.items.debug.admin_staff",
+        ): "weapon-staff-debug-admin_staff",
+        Simple(
             "common.items.debug.cultist_belt",
         ): "armor-velorite-belt",
         Simple(

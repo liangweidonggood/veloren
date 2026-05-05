@@ -1,0 +1,20 @@
+ItemDef(
+    legacy_name: "Admin staff",
+    legacy_description: "Debug staff — extreme tool stats for testing.",
+    kind: Tool((
+        kind: Staff,
+        hands: Two,
+        stats: (
+            equip_time_secs: 0.0,
+            power: 111.9,
+            effect_power: 111.9,
+            speed: 10.0,
+            range: 5.0,
+            energy_efficiency: 1.0,
+            buff_strength: 10.0,
+        ),
+    )),
+    quality: Debug,
+    tags: [],
+    ability_spec: None,
+)

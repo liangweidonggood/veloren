@@ -1359,6 +1359,10 @@
         "voxel.weapon.staff.firestaff_starter",
         (1.0, 0.0, 0.0), (-130., 90.0, 0.0), 1.2,
     ),
+    Simple("common.items.debug.admin_staff"): VoxTrans(
+        "voxel.weapon.staff.firestaff_starter",
+        (1.0, 0.0, 0.0), (-130., 90.0, 0.0), 1.2,
+    ),
     Simple("common.items.weapons.staff.cultist_staff"): VoxTrans(
         "voxel.weapon.staff.firestaff_cultist",
         (1.0, 0.0, 0.0), (-130., 90.0, 0.0), 1.2,

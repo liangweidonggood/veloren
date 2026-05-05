@@ -52,5 +52,8 @@ weapon-sword-frost-admin_sword = Admin Greatsword
 weapon-bow-velorite-debug = Admin Velorite Bow
     .desc = Infused with Velorite power.
 
+weapon-staff-debug-admin_staff = Admin Staff (Debug)
+    .desc = Absurd tool stats for local testing. Not balanced for multiplayer.
+
 other-glider-vroom-debug = Vroom Glider
     .desc = goes brrr

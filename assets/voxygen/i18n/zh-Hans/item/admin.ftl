@@ -36,5 +36,7 @@ weapon-sword-frost-admin_sword = 管理员大剑
     .desc = 这不应该是锤子吗？
 weapon-bow-velorite-debug = 管理员弓
     .desc = 注入 Velorite 力量。
+weapon-staff-debug-admin_staff = 管理员法杖（调试）
+    .desc = 极限武器数值，仅适合本地测试；联机不平衡。
 other-glider-vroom-debug = 呼啸滑翔翼
     .desc = 发出嗡嗡声

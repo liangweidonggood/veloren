@@ -143,6 +143,7 @@
     Simple("common.items.weapons.sword.frost-1"): "voxel.weapon.sword.frost-1",
     Simple("common.items.weapons.sword.starter"): "voxel.weapon.sword.starter",
     Simple("common.items.debug.admin_sword"): "voxel.weapon.sword.frost-1",
+    Simple("common.items.debug.admin_staff"): "voxel.weapon.staff.firestaff_starter",
     // 1h Swords
     ModularWeapon(("common.items.modular.weapon.primary.sword.katana", "common.items.mineral.ingot.bronze", One)): "voxel.weapon.sword.katana.bronze-1h",
     ModularWeapon(("common.items.modular.weapon.primary.sword.longsword", "common.items.mineral.ingot.bronze", One)): "voxel.weapon.sword.longsword.bronze-1h",
