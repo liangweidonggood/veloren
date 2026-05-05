@@ -163,11 +163,24 @@ boss
 npc
 
 ```text
-/make_npc village.villager 49                                   # 村民
-/make_npc village.merchant 49                                   # 商人
-/make_npc village.guard 49                                      # 守卫
-/make_npc village.captain 49                                    # 船长自带安全区光环，无法被攻击
+/make_npc village.alchemist 49                                  # 炼金术士
+/make_npc village.blacksmith 49                                 # 铁匠
 /make_npc village.bowman 49                                     # 牛人弓箭手
+/make_npc village.captain 49                                    # 船长自带安全区光环，无法被攻击
+/make_npc village.chef 49                                       # 厨师
+/make_npc village.dummy 49                                      # 训练假人
+/make_npc village.farmer 49                                     # 农夫
+/make_npc village.guard 49                                      # 守卫
+/make_npc village.herbalist 49                                  # 草药师
+/make_npc village.hunter 49                                     # 猎人
+/make_npc village.merchant 49                                   # 商人
+/make_npc village.mountaineer 49                                # 登山者
+/make_npc village.skinner 49                                    # 剥皮匠
+/make_npc village.villager 49                                   # 村民
+
+
+
+
 /make_npc world.traveler0 49                                    # 新手冒险者
 /make_npc world.traveler1 49                                    # 旅人
 /make_npc world.traveler2 49                                    # 见多识广的冒险者
