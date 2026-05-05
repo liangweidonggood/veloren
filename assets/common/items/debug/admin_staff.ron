@@ -6,8 +6,8 @@ ItemDef(
         hands: Two,
         stats: (
             equip_time_secs: 0.0,
-            power: 9.9,
-            effect_power: 9.9,
+            power: 99.9,
+            effect_power: 99.9,
             speed: 5.0,
             range: 2.0,
             energy_efficiency: 50,

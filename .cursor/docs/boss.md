@@ -131,9 +131,19 @@ assets/common/entity/dungeon
 /make_npc dungeon.vampire.bloodmoon_heiress 49              # 2k    黄
 ```
 
-批量
+npc
 
-```text 
-/make_npc dungeon.cultist.mindflayer dungeon.dwarven_quarry.forgemaster 49
+/make_npc village.villager 49
+/make_npc village.merchant 49
+/make_npc village.guard 49
+/make_npc village.captain 49
+/make_npc village.bowman 49
 
-``
+/make_npc wild.aggressive.hydra 49
+/make_npc wild.aggressive.seawyvern 49
+/make_npc wild.aggressive.wendigo 49
+
+/make_npc world.world_bosses.gigas_fire 49
+/make_npc world.world_bosses.gigas_frost 49
+
+/kill_npcs
