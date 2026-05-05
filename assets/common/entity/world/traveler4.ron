@@ -1,0 +1,47 @@
+// T6
+// legendary+
+#![enable(implicit_some)]
+(
+    name: Translate("name-custom-world-traveler4"),
+    body: RandomWith("humanoid"),
+    alignment: Alignment(Npc),
+    loot: LootTable("common.loot_tables.nothing"),
+    inventory: (
+        loadout: Inline((
+            // Bias toward the strongest traveler3 sets.
+            inherit: Choice([
+                (1, Asset("common.loadout.world.traveler3.dragonscale")),
+                (1, Asset("common.loadout.world.traveler3.sunsilk")),
+                (1, Asset("common.loadout.world.traveler3.orichalcum")),
+            ]),
+            active_hands: InHands((Choice([
+                // Prefer unique weapons.
+                (4, Item("common.items.weapons.sword.caladbolg")),
+                (4, Item("common.items.weapons.hammer.mjolnir")),
+                (4, Item("common.items.weapons.axe.parashu")),
+                (4, Item("common.items.weapons.bow.sagitta")),
+                (4, Item("common.items.weapons.staff.laevateinn")),
+                (2, Item("common.items.weapons.sceptre.caduceus")),
+                // Still allow modular top materials.
+                (2, ModularWeapon(tool: Sword, material: Orichalcum, hands: None)),
+                (2, ModularWeapon(tool: Axe, material: Orichalcum, hands: None)),
+                (2, ModularWeapon(tool: Hammer, material: Orichalcum, hands: None)),
+                (2, ModularWeapon(tool: Bow, material: Eldwood, hands: None)),
+                (2, ModularWeapon(tool: Staff, material: Eldwood, hands: None)),
+                (2, ModularWeapon(tool: Sceptre, material: Eldwood, hands: None)),
+            ]), None)),
+            glider: Item("common.items.glider.sunset"),
+        )),
+        items: [
+            (10, "common.items.consumable.potion_med"),
+            (20, "common.items.food.sunflower_icetea"),
+            (20, "common.items.consumable.levin_dust"),
+            (20, "common.items.consumable.gelid_gel"),
+            (20, "common.items.consumable.firedrop"),
+            (20, "common.items.consumable.poison_clot"),
+        ],
+    ),
+    meta: [
+        SkillSetAsset("common.skillset.preset.rank5.fullskill"),
+    ],
+)
