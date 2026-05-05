@@ -286,9 +286,40 @@ kit keys
 
 
 
+# npc生成 common.entity.
+# /spawn wild dungeon.cultist.mindflayer 1
+
+
+
+/make_npc dungeon.adlet
+
+/make_npc dungeon.cultist
+
+/make_npc dungeon.dwarven_quarry
+
+/make_npc dungeon.fallback
+
+/make_npc dungeon.gnarling
+
+/make_npc dungeon.haniwa
+
+/make_npc dungeon.myrmidon
+
+/make_npc dungeon.sahagin
+
+/make_npc dungeon.sea_chapel        
+
+/make_npc dungeon.terracotta
+
+/make_npc dungeon.vampire
+
+
+
 
 # 传送
 /goto 1000.0 2000.0 150.0
+
+
 
 
 # 重载
