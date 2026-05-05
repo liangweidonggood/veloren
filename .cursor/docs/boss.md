@@ -146,4 +146,9 @@ npc
 /make_npc world.world_bosses.gigas_fire 49
 /make_npc world.world_bosses.gigas_frost 49
 
+/make_npc world.traveler0 49
+/make_npc world.traveler1 49
+/make_npc world.traveler2 49
+/make_npc world.traveler3 49
+
 /kill_npcs
